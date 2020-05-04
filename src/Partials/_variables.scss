@@ -1,0 +1,50 @@
+/*Variabili e mixin */
+
+@mixin centratura-flex{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+@mixin space-between{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: nowrap;
+
+}
+
+@mixin flex-start{
+display: flex;
+justify-content: flex-start;
+align-items: stretch;
+flex-wrap: wrap;
+
+}
+
+@mixin flex-end{
+display: flex;
+justify-content: flex-end;
+align-items: stretch;
+flex-wrap: wrap;
+
+}
+
+
+
+@mixin bottone-blu{
+background-color: #30488f;
+color: white;
+padding: 8px 18px;
+border-radius: 4px;
+
+}
+
+
+
+
+$colore1: #ffe7d2; /* arancione */
+$colore2: #fff;
+$colore-testo: #58402c;
+$margini: 0 180px;

@@ -1,0 +1,20 @@
+/*regole generali di struttura*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin stile-sezione{
+width: 100%;
+height: auto;
+
+}
+
+body{
+  color: $colore-testo;
+}
+
+a{
+  text-decoration: none;
+}
